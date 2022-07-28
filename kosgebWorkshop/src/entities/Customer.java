@@ -6,6 +6,8 @@ public class Customer extends User{
     private String customerNumber;
     private List<ApplicationStatus> applicationStatuses;
 
+    private List<BannedList> bannedLists;
+
 public Customer(){
 
 }
